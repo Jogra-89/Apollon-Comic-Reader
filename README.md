@@ -1,10 +1,10 @@
 # Apollon Comic Reader
 
-**Version 1.0.1 prerelease · A free Android comic reader for your own local collection.**
+**Version 1.0.2 prerelease · A free Android comic reader for your own local collection.**
 
 Read comic archives and PDFs offline, browse a rich library, follow the artwork panel by panel, and tailor the reader's appearance and controls to the way you read.
 
-**Current test build:** The original 1.0 APK crashes when opening a comic on a Galaxy Tab S9 FE+. Version 1.0.1 fixes the field-access error found in the crash report. It is awaiting an on-device reader test. Download the 1.0.1 prerelease below.
+**Current test build:** Version 1.0.1 opens comics on the Galaxy Tab S9 FE+, but the reader menu still crashes. Version 1.0.2 guards the added information card and shows a basic title if rich metadata fails. This change needs a tablet test. Download the 1.0.2 prerelease below.
 
 ## Highlights
 
@@ -32,7 +32,7 @@ See [FEATURES.md](FEATURES.md) for the detailed feature catalogue.
 
 ## Install
 
-1. Download **Apollon-Comic-Reader-1.0.1.apk** from this repository's release assets.
+1. Download **Apollon-Comic-Reader-1.0.2.apk** from this repository's release assets.
 2. Open the APK on an Android device and allow installation from the app used to open it, if Android asks.
 3. Open Apollon Comic Reader and add the folders containing your comics.
 4. Optional: enter your own ComicVine API key in Settings for online metadata.
