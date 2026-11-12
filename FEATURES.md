@@ -64,7 +64,7 @@ This catalogue is based on the supplied decoded app, its existing patch source, 
 - Six selectable reader-information layouts: large cover left, cover above information, information above cover, balanced side by side, information left with cover right, and wide cover banner. Only the information panel has a background. The chosen layout is saved.
 - Current page and time in the reader menu.
 - Find details on ComicVine for the current unmatched comic; requires a configured API key and internet connection.
-- Single-comic matching and the reader menu were exercised on a Galaxy Tab S9 FE+ in version 1.0.5; the new 1.0.9 layouts require a visual check.
+- Single-comic matching and the reader menu were exercised on a Galaxy Tab S9 FE+ in version 1.0.5; all six 1.0.9 layouts were selected on the same tablet, the large-cover layout was visually checked, and the selected layout remained after reopening the controls.
 
 ## Metadata and discovery
 
@@ -190,4 +190,4 @@ This catalogue is based on the supplied decoded app, its existing patch source, 
 - Metadata-dependent categories require suitable embedded data or online matching.
 - Online lookup and logo downloads require connectivity; local reading does not.
 - This APK has a separate application identity from Inkframe and cannot automatically inherit that app's private data.
-- The current release has build, logic, signature, and package checks; physical-device rendering, input, and performance testing remain pending.
+- The current release has build, logic, signature, package, and limited tablet checks; other devices, feature combinations, and performance have not been exhaustively tested.
