@@ -1,6 +1,6 @@
-# Apollon Comic Reader 1.0 — Feature catalogue
+# OmniPanel — Feature catalogue
 
-This catalogue is based on the supplied decoded app, its existing patch source, and the Apollon additions. It describes implemented options, not a claim that every combination has been verified on a physical device.
+This catalogue is based on the supplied decoded app, its existing patch source, and the Apollon additions carried into OmniPanel. It describes implemented options, not a claim that every combination has been verified on a physical device.
 
 ## Formats and local files
 
@@ -58,6 +58,13 @@ This catalogue is based on the supplied decoded app, its existing patch source, 
 - Finished comics and completed series can look normal, desaturated, black and white, blurred, or faded, with adjustable effect strength.
 - Remove source folders from the library.
 - Explicit deletion commands for comics and folders, with confirmation text distinguishing file deletion from library removal.
+
+## Reader menu
+
+- Six selectable reader-information layouts: large cover left, cover above information, information above cover, balanced side by side, information left with cover right, and wide cover banner. Only the information panel has a background. The chosen layout is saved.
+- Current page and time in the reader menu.
+- Find details on ComicVine for the current unmatched comic; requires a configured API key and internet connection.
+- Single-comic matching and the reader menu were exercised on a Galaxy Tab S9 FE+ in version 1.0.5; the new 1.0.9 layouts require a visual check.
 
 ## Metadata and discovery
 
