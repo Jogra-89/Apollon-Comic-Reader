@@ -61,15 +61,15 @@ This catalogue is based on the supplied decoded app, its existing patch source, 
 
 ## Reader menu
 
-- Six selectable reader-information layouts: large cover left, cover above information, information above cover, balanced side by side, information left with cover right, and wide cover banner. Only the information panel has a background. The chosen layout is saved.
+- A single reader-information view shows creator credits and details on the left and an uncropped cover on the right, over a dimmed page.
 - Covers are displayed uncropped; the information panel uses a translucent blurred-cover background and the selected theme font.
-- Choose compact, standard or large page thumbnails separately for each layout in Settings.
-- View creator portraits from ComicVine for matched issues when available; uncertain or unavailable matches use a placeholder. Portraits are cached, and the information panel links to ComicVine.
+- Choose compact, standard or large page thumbnails in reader settings.
+- View creator portraits near the top of the reader information for matched issues when available; uncertain or unavailable matches use a placeholder. Portraits are cached, and the information panel links to ComicVine.
 - Show a publisher logo when one is already cached by the app.
 - Jump toward settings groups from the top of Settings.
 - Current page and time in the reader menu.
 - Find details on ComicVine for the current unmatched comic; requires a configured API key and internet connection.
-- Single-comic matching was exercised on a Galaxy Tab S9 FE+ in version 1.0.5. All six layouts and three thumbnail sizes were exercised on that tablet in version 1.0.15; creator portraits loaded for one matched comic.
+- Single-comic matching was exercised on a Galaxy Tab S9 FE+ in version 1.0.5. Version 1.0.19 was tested on that tablet with the full-screen settings view, single information view, creator portraits and Comic Vine match button.
 
 ## Metadata and discovery
 
@@ -196,3 +196,5 @@ This catalogue is based on the supplied decoded app, its existing patch source, 
 - Online lookup and logo downloads require connectivity; local reading does not.
 - This APK has a separate application identity from Inkframe and cannot automatically inherit that app's private data.
 - The current release has build, logic, signature, package, and limited tablet checks; other devices, feature combinations, and performance have not been exhaustively tested.
+
+- Choose a ComicVine series or collection, then select an individual issue or edition by its cover, publisher and date. Matches apply to one comic and can be changed later.
