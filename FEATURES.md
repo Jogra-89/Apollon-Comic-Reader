@@ -62,9 +62,14 @@ This catalogue is based on the supplied decoded app, its existing patch source, 
 ## Reader menu
 
 - Six selectable reader-information layouts: large cover left, cover above information, information above cover, balanced side by side, information left with cover right, and wide cover banner. Only the information panel has a background. The chosen layout is saved.
+- Covers are displayed uncropped; the information panel uses a translucent blurred-cover background and the selected theme font.
+- Choose compact, standard or large page thumbnails separately for each layout in Settings.
+- View creator portraits from ComicVine for matched issues when available; uncertain or unavailable matches use a placeholder. Portraits are cached, and the information panel links to ComicVine.
+- Show a publisher logo when one is already cached by the app.
+- Jump toward settings groups from the top of Settings.
 - Current page and time in the reader menu.
 - Find details on ComicVine for the current unmatched comic; requires a configured API key and internet connection.
-- Single-comic matching and the reader menu were exercised on a Galaxy Tab S9 FE+ in version 1.0.5; all six 1.0.9 layouts were selected on the same tablet, the large-cover layout was visually checked, and the selected layout remained after reopening the controls.
+- Single-comic matching was exercised on a Galaxy Tab S9 FE+ in version 1.0.5. All six layouts and three thumbnail sizes were exercised on that tablet in version 1.0.15; creator portraits loaded for one matched comic.
 
 ## Metadata and discovery
 
