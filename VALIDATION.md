@@ -1,5 +1,6 @@
 # Validation
 
-- Version 1.0.5 was tested on a Galaxy Tab S9 FE+: the information card showed cover, synopsis and credits; ComicVine fetched credits for the current comic; the card closed; panel view opened; and a page thumbnail moved forward and back.
-- Version 1.0.9 passed Java compilation, DEX assembly, application-member reference and invocation-kind checks, signing, stored-entry alignment, and host tests of single-comic filtering. On the Galaxy Tab S9 FE+, all six layout selections were exercised, the large-cover layout and information-only background were visually checked, and the selected layout remained after closing and reopening the reader controls. No reader or Android runtime errors appeared in the current app process during that check.
-- Other features and devices have not been exhaustively tested.
+- On a Galaxy Tab S9 FE+, version 1.0.16 exercised all six layouts with compact, standard and large page-thumbnail choices; the test checked that cover and information bounds stayed above the page strip.
+- ComicVine creator photos loaded for two credited people on one matched comic in version 1.0.14. The reader layout selector and settings group shortcuts were exercised in versions 1.0.11 and 1.0.15.
+- Version 1.0.16 passed compilation, DEX assembly, member-reference and invocation-kind checks, signing and stored-entry alignment checks.
+- Other devices, orientations and feature combinations have not been exhaustively tested.
