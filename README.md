@@ -2,7 +2,11 @@
 
 OmniPanel is a free Android comic reader for a local collection. Read archives and PDFs, browse your library, and follow a page panel by panel. See [FEATURES.md](FEATURES.md) for the full feature catalogue.
 
-## Install
+## Windows 11 preview
+
+[Download OmniPanel for Windows Preview 1](https://github.com/Jogra-89/Apollon-Comic-Reader/releases/tag/windows-v1.0-preview.1). Extract the complete portable x64 ZIP and run app/OmniPanel.exe. Includes offline archives/PDFs, library, progress, keyboard controls and a ComicVine picker. Source and a full desktop feature list are included in the release. Guided panels, creator photos and Android themes are planned; this preview does not yet have Android feature parity.
+
+## Android install
 
 Download [OmniPanel-1.0.20.apk](https://github.com/Jogra-89/Apollon-Comic-Reader/releases/download/v1.0.20/OmniPanel-1.0.20.apk) from the release assets and open it on Android 8.0 or later. If Android asks, allow installation from the app you used to open the APK. OmniPanel uses the same app ID and signing key as the earlier Apollon builds, so it updates them in place. It is separate from Inkframe and does not import Inkframe's app data automatically.
 
